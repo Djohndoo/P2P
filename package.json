@@ -1,0 +1,29 @@
+{
+  "name": "marshallhome",
+  "version": "1.0.0",
+  "description": "MarshallHome",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "autoprefixer": "^7.2.3",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sourcemaps": "^2.6.1"
+  },
+  "devDependencies": {
+    "gulp-stylus": "^2.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Djohndoo/MarshallHome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Djohndoo/MarshallHome/issues"
+  },
+  "homepage": "https://github.com/Djohndoo/MarshallHome#readme"
+}

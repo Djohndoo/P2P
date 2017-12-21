@@ -1,0 +1,30 @@
+.indicatorDailyCard
+    display flex
+    justify-content flex-start
+    align-items stretch
+
+.dailyCard 
+    display column
+    justify-content space-between
+    border-radius 6px
+    padding 4 * $padding 2 * $padding
+    margin-bottom 4 * $px
+    +e(number)
+        color $primary
+        font-size 40 * $px
+        font-weight 100
+    +e(txt)
+        margin-top 2 * $padding
+        color $primary
+        font-size 16 * $px
+        font-weight 200
+    +e(bonus)
+        color $secondary
+        font-size 16 * $px
+        font-weight 200
+        margin-top: 4 * $padding
+    +e(txtInfo)
+        padding-top 2 * $padding
+        font-size 12 * $px
+        color #333333
+        line-height 16px

@@ -1,0 +1,353 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px 8px;
+}
+.btn {
+  background: none;
+  border: none;
+  outline: none;
+  color: #000;
+  font-size: 1.5rem;
+}
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 32px;
+  width: 32px;
+  border: 1px solid #8860cf;
+  border-radius: 100px;
+}
+.profile--big {
+  width: 64px;
+  height: 64px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fafafa;
+}
+.inline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+.link a {
+  text-decoration: none;
+  font-size: 0.75rem;
+  color: #8860cf;
+  cursor: pointer;
+}
+.title {
+  color: #000;
+  font-size: 1.5rem;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-weight: bold;
+}
+.indicatorCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  border-radius: 6px;
+  background: linear-gradient(136.56deg, #b682f9 0%, #855ecc 100%);
+  padding: 16px 8px 16px 8px;
+  margin-bottom: 0.25rem;
+}
+.card__number {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+.card__txt {
+  color: #fff;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  font-weight: 200;
+}
+.padding-side {
+  padding: 0 16px 0 16px;
+}
+.padding {
+  padding: 16px 20px 0px;
+}
+.indicatorDailyCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+.dailyCard {
+  display: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 6px;
+  padding: 16px 8px;
+  margin-bottom: 0.25rem;
+}
+.dailyCard__number {
+  color: #8860cf;
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+.dailyCard__txt {
+  margin-top: 8px;
+  color: #8860cf;
+  font-size: 1rem;
+  font-weight: 200;
+}
+.dailyCard__bonus {
+  color: #07d3c8;
+  font-size: 1rem;
+  font-weight: 200;
+  margin-top: 16px;
+}
+.dailyCard__txtInfo {
+  padding-top: 8px;
+  font-size: 0.75rem;
+  color: #333;
+  line-height: 16px;
+}
+.cardProfile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 6px;
+  padding: 16px 16px;
+  margin-bottom: 0.25rem;
+  background: #fff;
+}
+.cardProfile__number {
+  color: #8860cf;
+  font-size: 2rem;
+  font-weight: 100;
+}
+.cardProfile__indicator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px;
+}
+.cardProfile__label {
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333;
+}
+.communityList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 8px;
+  height: 300px;
+}
+.communityList__txt {
+  margin: 8px;
+}
+.communityList__icon {
+  background: #8860cf;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+}
+.communityList__item {
+  height: 100%;
+  padding: 16px 0px;
+}
+
+/*# sourceMappingURL=app.css.map */

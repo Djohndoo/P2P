@@ -24,5 +24,5 @@ var gulp = require('gulp'),
                   baseDir: './'
               }
           });
-          gulp.watch(['./src/stylus/*/*.styl', './src/stylus/*.styl'], ['stylus'])
+          gulp.watch(['./index.html','./src/stylus/*/*.styl', './src/stylus/*.styl'], ['stylus'])
       });

@@ -4,9 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./dist/css/app.css">
+    <link rel="stylesheet" href="./assets/css/ionicons.css">
     <title>Document</title>
 </head>
 <body>
-    
+
+    <header class="header">
+        <button class="btn"><i class="icon ion-navicon"></i></button>
+        <div class="header">
+            <button class="padding-side btn"><i class="icon ion-ios-arrow-left"></i></button>
+            <p>Mercredi 20 décembre</p>
+            <button class="padding-side btn"><i class="icon ion-ios-arrow-right"></i></button>
+        </div>
+        <div class="profile">
+            <i class="icon ion-ios-person btn"></i>
+        </div>
+    </header>
+
+    <section class="padding">
+        <h1 class="title">Mon activité</h1>
+    </section>
+
+    <section class="padding">
+        <h1 class="title">Ma journée</h1>
+        <div class="indicatorCard"> 
+            <div class="card">
+                <p class="card__number">3.92</p>
+                <p class="card__txt">kWh consommés</p>
+            </div>
+            <div class="card">
+                    <p class="card__number">3.92</p>
+                    <p class="card__txt">kWh consommés</p>
+             </div>
+        </div>
+    </section>
+
+    <section class="padding">
+        <h1 class="title">Ma Communauté</h1>
+        <div class="indicatorDailyCard"> 
+            <div class="dailyCard">
+                <span class="dailyCard__number">0</span> 
+                <p class="dailyCard__txt">quarts d'heure <br> 
+                    <p class="dailyCard__txtInfo">où vous avez été utile à la communauté.où vous avez été utile à la communauté.</p></p>
+                <p class="dailyCard__bonus">+0 points</p>
+            </div>
+            <div class="dailyCard">
+                <span class="dailyCard__number">0</span> 
+                <p class="dailyCard__txt">quarts d'heure <br> 
+                    <p class="dailyCard__txtInfo">où vous avez été utile à la communauté.où vous avez été utile à la communauté.</p></p>
+                <p class="dailyCard__bonus">+0 points</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="padding">
+        <h1 class="title">P2P Challenge</h1>
+        <div class="challengeCard"> 
+            <div class="cardProfile">
+                <div class="profile profile--big card__picture">
+                    <i class="icon ion-ios-person"></i>
+                </div>
+                <div class="padding cardProfile__indicator">
+                    <div class="padding-side">
+                        <span class="cardProfile__label">classement</span>
+                        <p class="cardProfile__number">1300</p>
+                    </div>
+                    <div class="padding-side">
+                        <span class="cardProfile__label">points</span>
+                        <p class="cardProfile__number">1300</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="padding">
+        <div class="inline">
+            <h1 class="title">Ma communauté</h1>
+            <p class="link"><a href="#">Voir les membres</a></p>
+        </div>
+        <div class="communityList">
+            <div class="communityList__items">
+                <i class="icon ion-ios-person communityList__icon"></i><span class="communityList__txt"> 123 membres</span>
+            </div> 
+        </div>
+    </section>
 </body>
 </html>
